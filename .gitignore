@@ -1,0 +1,70 @@
+# Build results
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# NuGet
+packages/
+!packages/build/
+*.nupkg
+*.snupkg
+**/[Pp]ackages/build/
+
+# Publish / deployment
+*.Publish.xml
+**/PublishProfiles/*.pubxml.user
+
+# MSTest
+[Tt]est[Rr]esult*/
+*.trx
+*.cover
+*.coverage
+*.coveragexml
+
+# NCrunch
+*.ncrunchproject
+*.ncrunchsolution
+_NCrunch_*
+
+# ReSharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+
+# Backup & temp
+*~
+*.bak
+*.tmp
+*.temp
+*.swp
+*~
+
+# User-specific (optional)
+*.rsuser
+
+# Entity Framework migrations (if generated in a separate output)
+# Add paths here if you generate migrations to a custom folder
+
+# Local config / secrets (uncomment if you use local overrides)
+# Web.local.config
+# appsettings.*.local.json

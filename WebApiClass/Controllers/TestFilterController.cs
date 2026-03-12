@@ -17,7 +17,9 @@ namespace WebApiClass.Controllers
         [ResultFilter]
         public   IActionResult Get()
         {
+
             Console.WriteLine("test It Action");
+           //  throw  new Exception("create by myself....");
 
             return Ok("test It......");
         }
